@@ -13,7 +13,7 @@ The goal is to evaluate various peripherals, sensors, and communication protocol
 * Storage testing using **EEPROM**, **on-board Flash**, and **microSD card**
 * Evaluation of **Ethernet** interface for network-based applications
 * Audio codec and buzzer functionality tests
-* Touch screen and display interaction via the **EasyTFT** module
+* Touch screen and display interaction via the **EasyTFT**(based on HX8347D 8080 parallel 8-bit graphics driver) module with LVGL 
 
 Development and debugging are performed through **STM32CubeIDE** using the **integrated hardware debugger and programmer** based on **ST-LINK V2**, utilizing the same standard ST drivers.
 
